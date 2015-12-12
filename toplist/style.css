@@ -1,27 +1,43 @@
 
-h1 {
-  font-family: 'Roboto', 'Noto', sans-serif;  
-  color: white;
-  background-color: #23b3b0;
-
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 75%;
+  max-width: 850px;
 }
 
 
-body {
-  font-family: 'Helvetica Neue', 'Lucida Grande', sans-serif;
-  font-size: 75%;
+h1 {
+  background: #33BEBE;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 300%;
+  font-weight: 500;
+  margin: 0;
+  padding: 28px 0 0 0;
+}
+
+element.style {
 }
 
 .image {
+  width: 381px;
   max-width: 460px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  margin-right: 15px;
 }
 
 .description {
-  max=width: 705px;
+  max-width: 705px;
+  color: #7C8B88;
+  font-size: 225%;
 }
 
 .app {
   display: flex;
+  margin: 20px 0 0 0;
 }
 
 * {
@@ -29,4 +45,8 @@ body {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+div {
+  display: block;
 }
