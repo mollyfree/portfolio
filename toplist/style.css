@@ -1,4 +1,17 @@
 
+h1 {
+  font-family: 'Roboto', 'Noto', sans-serif;  
+  color: white;
+  background-color: #23b3b0;
+
+}
+
+
+body {
+  font-family: 'Helvetica Neue', 'Lucida Grande', sans-serif;
+  font-size: 75%;
+}
+
 .image {
   max-width: 460px;
 }
